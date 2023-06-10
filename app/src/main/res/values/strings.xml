@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SocialSensei</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_challenges">Challenges</string>
+    <string name="menu_progress">Progress</string>
+    <string name="menu_rewards">Rewards</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_logout">Log out</string>
+    <string name="menu_login">Login</string>
+    <string name="menu_signup">Sign up</string>
+    <string name="signup_title">Sign up</string>
+    <string name="login_title">Login</string>
+    <string name="signup_cta_title">&#x1F525; To Find Your Sensei &#x1F525;</string>
+    <string name="login_cta_title">&#x1F525; To Meet Your Sensei &#x1F525;</string>
+    <string name="email_placeholder">Your email</string>
+    <string name="password_placeholder">Your password</string>
+    <string name="redirect_text">Already have an account? Login</string>
+    <string name="redirect_to_signup_text">Do not have an account? Sign up</string>
+    <string name="terms_and_use">By creating an account, you agree to the Terms and Use and Privacy Policy</string>
+</resources>

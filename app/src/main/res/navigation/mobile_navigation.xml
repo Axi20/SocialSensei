@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_signup">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.socialsensei.android.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.socialsensei.android.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_challenges"
+        android:name="com.socialsensei.android.ui.challenges.ChallengesFragment"
+        android:label="@string/menu_challenges"
+        tools:layout="@layout/fragment_challenges" />
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.socialsensei.android.ui.progress.ProgressFragment"
+        android:label="@string/menu_progress"
+        tools:layout="@layout/fragment_progress" />
+    <fragment
+        android:id="@+id/nav_rewards"
+        android:name="com.socialsensei.android.ui.rewards.RewardsFragment"
+        android:label="@string/menu_rewards"
+        tools:layout="@layout/fragment_rewards" />
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.socialsensei.android.ui.notifications.NotificationsFragment"
+        android:label="@string/menu_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.socialsensei.android.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.socialsensei.android.ui.faq.FaqFragment"
+        android:label="@string/menu_faq"
+        tools:layout="@layout/fragment_faq" />
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.socialsensei.android.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_logout" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.socialsensei.android.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/nav_signup"
+        android:name="com.socialsensei.android.ui.signup.SignupFragment"
+        android:label="@string/menu_signup"
+        tools:layout="@layout/fragment_signup" />
+</navigation>
